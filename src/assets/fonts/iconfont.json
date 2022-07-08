@@ -1,0 +1,65 @@
+{
+  "id": "3507322",
+  "name": "电商管理项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8676284",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "7155220",
+      "name": "用户",
+      "font_class": "yonghu1",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "2851",
+      "name": "数据统计",
+      "font_class": "shujutongji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2681686",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "12975013",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "8802668",
+      "name": "权限",
+      "font_class": "quanxian",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "1304896",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "11372676",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e8b2",
+      "unicode_decimal": 59570
+    }
+  ]
+}
