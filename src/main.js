@@ -5,7 +5,7 @@ import '@/assets/css/global.css'
 import '@/assets/fonts/iconfont.css'
 
 import { Form, FormItem, Input,Button,Container,Header,Aside,Main,Menu,Submenu,MenuItem,Breadcrumb,BreadcrumbItem,
-          Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog
+          Card,Row,Col,Table,TableColumn,Switch,Tooltip,Pagination,Dialog,Tag
 } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css';
 import {Message} from 'element-ui'
@@ -34,6 +34,7 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
 
 
 import axios from 'axios'

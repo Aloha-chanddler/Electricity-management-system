@@ -4,6 +4,7 @@ import LoginPage from '@/components/LoginPage'
 import HomePage from '@/components/HomePage'
 import WelcomePage from '@/components/WelcomePage'
 import UserPage from '@/components/user/UserPage'
+import RightsPage from '@/components/right/RightsPage'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -28,7 +29,11 @@ const router = new VueRouter({
         {
           path:'/users',
           component:UserPage
-        }
+        },
+        {
+          path:'/rights',
+          component:RightsPage
+        },
       ]
     }
   ]
