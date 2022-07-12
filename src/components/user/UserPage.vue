@@ -63,33 +63,35 @@
         </el-table-column>
         <el-table-column label="操作" width="180">
           <template slot-scope="scope">
-            <!-- 修改按钮 -->
-            <el-button
-              type="primary"
-              icon="el-icon-edit"
-              size="mini"
-              @click="showEditDialog(scope.row.id)"
-            ></el-button>
-            <!-- 删除按钮 -->
-            <el-button
-              type="danger"
-              icon="el-icon-delete"
-              size="mini"
-              @click="removeUserById(scope.row.id)"
-            ></el-button>
-            <!-- 分配角色按钮 -->
-            <el-tooltip
-              effect="dark"
-              content="分配角色"
-              placement="top"
-              :enterable="false"
-            >
+            <div>
+                <!-- 修改按钮 -->
               <el-button
-                type="warning"
-                icon="el-icon-setting"
+                type="primary"
+                icon="el-icon-edit"
                 size="mini"
+                @click="showEditDialog(scope.row.id)"
               ></el-button>
-            </el-tooltip>
+              <!-- 删除按钮 -->
+              <el-button
+                type="danger"
+                icon="el-icon-delete"
+                size="mini"
+                @click="removeUserById(scope.row.id)"
+              ></el-button>
+              <!-- 分配角色按钮 -->
+              <el-tooltip
+                effect="dark"
+                content="分配角色"
+                placement="top"
+                :enterable="false"
+              >
+                <el-button
+                  type="warning"
+                  icon="el-icon-setting"
+                  size="mini"
+                ></el-button>
+              </el-tooltip>
+            </div>
           </template>
         </el-table-column>
       </el-table>
@@ -104,9 +106,6 @@
         :total="total"
       >
       </el-pagination>
-
-      <!-- 修改用户信息 -->
-
     </el-card>
 
     <!-- 添加用户对话框 -->

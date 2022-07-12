@@ -5,6 +5,7 @@ import HomePage from '@/components/HomePage'
 import WelcomePage from '@/components/WelcomePage'
 import UserPage from '@/components/user/UserPage'
 import RightsPage from '@/components/right/RightsPage'
+import RolesPage from '@/components/right/RolesPage'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
@@ -33,6 +34,10 @@ const router = new VueRouter({
         {
           path:'/rights',
           component:RightsPage
+        },
+        {
+          path:'/roles',
+          component:RolesPage
         },
       ]
     }
